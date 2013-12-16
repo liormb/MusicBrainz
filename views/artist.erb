@@ -9,8 +9,8 @@
 	%>
 
 
-	<% unless @artist_information["artist_description"] != "" %>
-		<p><%= @artist_information["artist_description"] %></p>
+	<% unless @artist_information["artist_description"]["wikipedia"] != "" %>
+		<p><%= @artist_information["artist_description"]["wikipedia"] %></p>
 	<% end %>
 
 	<table border=0 cellspacing="0">
